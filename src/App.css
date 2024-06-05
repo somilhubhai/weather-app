@@ -1,0 +1,44 @@
+body {
+  background: linear-gradient(180deg, red, green);
+}
+
+.App {
+  display: block;
+  position: absolute;
+  top: 7rem;
+  left: 30rem;
+  padding: 25px;
+  box-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+}
+
+.header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.card {
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+}
+
+.input-field {
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.btn {
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(180deg , rgb(66, 35, 35) , rgb(0, 42, 255));
+}
